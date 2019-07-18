@@ -42,7 +42,7 @@ module.exports.postLogin = (req, res) =>{
         };
 
         if(isMatch) {
-          jwt.sign({ id: admins.get('id'), level: admins.get('level') }, process.env.SECRETKEY, (error,token) =>{
+          jwt.sign({ id: admins.get('id'), level: admins.get('level'), name: admins.get('name') }, process.env.SECRETKEY, (error,token) =>{
             res.json({token: token});
           })
         } else {

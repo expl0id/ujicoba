@@ -8,7 +8,8 @@ Orders.init({
   bookTitle:Sequelize.STRING,
   orderDate: Sequelize.DATE,
   quantity: Sequelize.INTEGER,
-  total: Sequelize.INTEGER
+  total: Sequelize.INTEGER,
+  name : Sequelize.STRING
   
 }, { sequelize, modelName: 'orders' });
 

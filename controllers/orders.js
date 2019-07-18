@@ -15,7 +15,8 @@ module.exports.createOrders = (req, res) => {
                 bookTitle:req.body.bookTitle,
                 orderDate: req.body.orderDate,
                 quantity: req.body.quantity,
-                total: req.body.total
+                total : req.body.total,
+                name : authData['name']
             }
             Orders
             .create(values)
