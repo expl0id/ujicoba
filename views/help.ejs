@@ -1,0 +1,160 @@
+<% include header%>
+
+        <!-- Home Content -->
+          
+
+        <div id="content" class="site-content">
+            <div id="blog-wrapper">
+                <div class="blog-holder center-relative">
+
+                        <article id="post-2" class="blog-item-holder">
+                                <div class="entry-content relative">
+                                    <div class="content-1170 center-relative">
+                                        <h2 class="entry-title">
+                                            Bagaimana Caranya?
+                                             <div class="excerpt">
+                                            1. Install Postman
+                                        </div>
+                                        </h2>
+                                        <div class="cat-links">
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+        
+                            <article id="post-2" class="blog-item-holder">
+                                    <div class="entry-content relative">
+                                        <div class="content-1170 center-relative">
+                                            <h2 class="entry-title">
+                                                Lalu?
+        
+                                                <h2 class="entry-title">
+                                                        Untuk API Account
+                                                
+                                                        <br />
+                                                        <br />
+                                                        <div class="excerpt">
+                                                                1. Register Account
+                                                                <br />
+                                                                <br />
+                                                                <p>-Rubah Method ke POST</p>
+                                                                <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                                <p>-input datanya yang terdiri dari name, username, password, level</p>
+                                                                <p>-tekan send</p>
+                                                        </div>
+                                                        <div class="excerpt">
+                                                                <br />
+                                                                <br />  
+                                                                1. Login Account
+                                                                <br />
+                                                                <br />
+                                                                <p>-Rubah Method ke POST</p>
+                                                                <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                                <p>-input datanya yang terdiri dari username, password</p>
+                                                                <p>-Maka akan muncul sebuah token, dan token tersebut merupakan alat untuk anda masuk sebagai hak akses.
+                                                                    jika anda memasukan levelnya adalah staff, maka anda hanya bisa mengakses yang autorization staff. 
+                                                                    jika anda memasukan levelnya adalah costumer, maka anda hanya bisa mengakses yang autorization staff.
+                                                                </p>
+                                                                <p>-tekan send</p>
+                                                        </div>
+        
+                                                </h2>
+                                                
+                                                <h2 class="entry-title">
+                                                        Untuk API Buku
+                                                
+                                                        <br />
+                                                        <br />
+                                            <div class="excerpt">
+                                                    1. Create Data Buku
+                                                    <br />
+                                                    <br />
+                                                    <p>-Authorization wajib staff</p>
+                                                    <p>-Rubah Method ke POST</p>
+                                                    <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                    <p>-input datanya yang terdiri dari title, author, genre, price, descriptions, condition</p>
+                                                    <p>-tekan send</p>
+                                            </div>
+                                            <div class="excerpt">
+                                                    <br />
+                                                    <br />
+                                                    2. Update Data Buku
+                                                    <br />
+                                                    <br />
+                                                    <p>-Authorization wajib staff</p>
+                                                    <p>-Rubah Method ke PUT</p>
+                                                    <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                    <p>-pada bagian ":id", pilih id yang ingin di rubah, contoh : "http://localhost:3211/book/update/1"</p>
+                                                    <p>-input update nya yang terdiri dari title, author, genre, price, descriptions, condition</p>
+                                                    <p>-tekan send</p>
+                                            </div>
+                                            <div class="excerpt">
+                                                    <br />
+                                                    <br />
+                                                    3. Delete Data Buku
+                                                    <br />
+                                                    <br />
+                                                    <p>-Authorization wajib staff</p>
+                                                    <p>-Rubah Method ke Delete</p>
+                                                    <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                    <p>-pada bagian ":id", pilih id yang ingin di rubah, contoh : "http://localhost:3211/book/delete/1"</p>
+                                                    <p>-tekan send</p>
+                                            </div>
+                                            <div class="excerpt">
+                                                    <br />
+                                                    <br />
+                                                    4. Lihat Semua Buku
+                                                    <br />
+                                                    <br />
+                                                    <p>-Authorization wajib costumer</p>
+                                                    <p>-Rubah Method ke Get</p>
+                                                    <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                    <p>-tekan send</p>
+                                            </div>
+                                            <div class="excerpt">
+                                                    <br />
+                                                    <br />
+                                                    5. Lihat Bedasarkan ID
+                                                    <br />
+                                                    <br />
+                                                    <p>-Authorization wajib costumer</p>
+                                                    <p>-Rubah Method ke get</p>
+                                                    <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                    <p>-pada bagian ":id", pilih id yang ingin di rubah, contoh : "http://localhost:3211/book/cekId/1"</p>
+                                                    <p>-tekan send</p>
+                                            </div>
+                                            <div class="excerpt">
+                                                    <br />
+                                                    <br />
+                                                    6. Lihat Bedasarkan Nama
+                                                    <br />
+                                                    <br />
+                                                    <p>-Authorization wajib costumer</p>
+                                                    <p>-Rubah Method ke get</p>
+                                                    <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                    <p>-input title nya yang ingin dicari</p>
+                                                    <p>-tekan send</p>
+                                            </div>
+                                            </h2>
+                                            <h2 class="entry-title">
+                                                    Untuk API Order
+                                            
+                                                    <br />
+                                                    <br />
+                                                    <div class="excerpt">
+                                                            1. Create Order
+                                                            <br />
+                                                            <br />
+                                                            <p>-Authorization wajib costumer</p>
+                                                            <p>-Rubah Method ke POST</p>
+                                                            <p>-Masukan Link Yang ada di menu awal ke coloum "enter request URL"</p>
+                                                            <p>-input datanya yang terdiri dari bookTitle, orderDate, quantity,  total</p>
+                                                            <p>-tekan send</p>
+                                                    </div>
+                                            </h2>
+                                        
+                                        </div>
+                                    </div>
+        
+                                </article>  
+<% include footer%>
